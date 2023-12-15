@@ -5,7 +5,7 @@ Este proyecto desarrolla un sistema de reconocimiento de posturas de yoga utiliz
 
 ## Características del programa
 1. **Configuración Inicial:** Se calibra la cámara con el patrón ChArUco.
-2. **Sistema de Seguridad:** Para acceder, el usuario debe introducir una secuencia de figuras planas a modo de contraseña (estrella, cuadrado, pentágono).
+2. **Sistema de Seguridad:** Para acceder, el usuario debe introducir una secuencia de figuras planas a modo de contraseña (estrella, cuadrado, pentágono). Estas han de ser introducidas al sistema de una en una.
 3. **Reconocimiento de Posturas:** El sistema compara las posturas mostradas a la cámara con las almacenadas en la base de datos, utilizando algoritmos de comparación de puntos clave.
 
 ## Archivos del programa
@@ -20,8 +20,8 @@ Este proyecto desarrolla un sistema de reconocimiento de posturas de yoga utiliz
 - `plantillas`: Directorio con las imágenes de posturas de yoga que forman la base de datos.
 - `resultados_calibracion`: Directorio con dos subcarpetas, mostrando los marcadores ArUco y los Chessboard corners identificados.
 
-## Ejecución del código
+## Ejecución del programa
 1. Instalar las dependencias necesarias (detalladas en el archivo `requirements.txt`).
-2. Descargar los archivos del repositorio () y colocarlos en el mismo directorio que el programa.
+2. Descargar los archivos del repositorio (`Proyecto_AsesorYoga.py`, `matrix.txt`, `distCoeffs.txt`, `imagenes_calibracion`, `info`, `plantillas`) y colocarlos en el mismo directorio que el programa.
 3. Ejecutar el script principal `ProyectoFinal_ElenayVictoria.py` desde la Raspberry Pi con la cámara conectada.
 4. Seguir las instrucciones en pantalla para la calibración, el sistema de seguridad y el reconocimiento de posturas.
