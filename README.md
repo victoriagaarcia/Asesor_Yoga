@@ -18,7 +18,7 @@ Este proyecto desarrolla un sistema de reconocimiento de posturas de yoga utiliz
 - `imagenes_calibracion`: Directorio con las imágenes empleadas para calibrar la cámara.
 - `info`: Directorio con los archivos de texto con la información sobre las posturas.
 - `plantillas`: Directorio con las imágenes de posturas de yoga que forman la base de datos.
-- `resultados_calibracion`: Directorio con dos subcarpetas, mostrando los marcadores ArUco y los Chessboard corners identificados.
+- `resultados_calibracion`: Directorio con dos subcarpetas, con las imágenes mostrando los marcadores ArUco y los Chessboard corners identificados.
 
 ## Ejecución del programa
 1. Instalar las dependencias necesarias (detalladas en el archivo `requirements.txt`).
